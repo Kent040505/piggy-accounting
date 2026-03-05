@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', 'WenQuanYi Micro Hei', system-ui,
+    -apple-system, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fdf2f8, #fefce8);
+  min-height: 100vh;
+}

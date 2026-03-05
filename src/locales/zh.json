@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "首页",
+    "add": "添加",
+    "settings": "设置"
+  },
+  "dashboard": {
+    "title": "猪猪记账",
+    "totalBalance": "总余额",
+    "totalIncome": "总收入",
+    "totalExpense": "总支出",
+    "recentTransactions": "最近交易",
+    "noTransactions": "暂无交易记录，点击添加！"
+  },
+  "addTransaction": {
+    "title": "添加交易",
+    "income": "收入",
+    "expense": "支出",
+    "amount": "金额",
+    "amountPlaceholder": "请输入金额",
+    "category": "分类",
+    "selectCategory": "请选择分类",
+    "description": "备注",
+    "descriptionPlaceholder": "请输入备注（可选）",
+    "date": "日期",
+    "submit": "添加交易",
+    "success": "交易添加成功！",
+    "categories": {
+      "salary": "工资",
+      "freelance": "兼职",
+      "investment": "投资",
+      "gift": "礼金",
+      "other_income": "其他收入",
+      "food": "餐饮",
+      "transport": "交通",
+      "shopping": "购物",
+      "entertainment": "娱乐",
+      "utilities": "水电费",
+      "rent": "房租",
+      "health": "医疗",
+      "education": "教育",
+      "other_expense": "其他支出"
+    }
+  },
+  "transactionList": {
+    "title": "交易记录",
+    "noTransactions": "暂无交易记录。",
+    "filter": "筛选",
+    "all": "全部",
+    "income": "收入",
+    "expense": "支出",
+    "deleteConfirm": "确定要删除该交易吗？"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "english": "English",
+    "chinese": "简体中文",
+    "theme": "主题",
+    "about": "关于",
+    "version": "版本",
+    "appName": "猪猪记账",
+    "clearData": "清除所有数据",
+    "clearDataConfirm": "确定要清除所有数据吗？此操作不可撤销。",
+    "cleared": "数据已清除。"
+  },
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "delete": "删除",
+    "save": "保存",
+    "edit": "编辑",
+    "loading": "加载中...",
+    "currency": "¥"
+  }
+}

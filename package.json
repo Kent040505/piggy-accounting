@@ -1,1 +1,40 @@
-{\n  "name": "piggy-accounting",\n  "version": "1.0.0",\n  "description": "A React application using Tailwind CSS",\n  "dependencies": {\n    "react": "^17.0.2",\n    "react-dom": "^17.0.2",\n    "tailwindcss": "^2.2.19"\n  },\n  "devDependencies": {\n    "autoprefixer": "^10.3.7",\n    "postcss": "^8.3.6"\n  },\n  "scripts": {\n    "build": "tailwindcss build -o ./dist/output.css",\n    "start": "react-scripts start",\n    "test": "react-scripts test",\n    "eject": "react-scripts eject"\n  },\n  "author": "Kent040505",\n  "license": "MIT"\n}
+{
+  "name": "piggy-accounting",
+  "version": "1.0.0",
+  "description": "A React application using Tailwind CSS",
+  "dependencies": {
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^15.4.1",
+    "react-router-dom": "^6.30.0",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "ajv": "^8.18.0",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.6"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "Kent040505",
+  "license": "MIT"
+}

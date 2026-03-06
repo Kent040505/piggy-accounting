@@ -19,7 +19,7 @@ export const useTransactions = () => {
   const addTransaction = (transaction) => {
     const newTransaction = {
       ...transaction,
-      id: Date.now().toString(),
+      id: crypto.randomUUID(),
       createdAt: new Date().toISOString(),
     };
     setTransactions((prev) => [newTransaction, ...prev]);

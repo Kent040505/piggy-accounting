@@ -47,7 +47,7 @@ export const useCategories = () => {
   const addCategory = (category) => {
     const newCategory = {
       ...category,
-      id: `custom-${Date.now()}`,
+      id: `custom-${crypto.randomUUID()}`,
       isDefault: false,
     };
     setCustomCategories((prev) => [...prev, newCategory]);

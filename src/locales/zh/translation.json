@@ -1,0 +1,97 @@
+{
+  "app": {
+    "title": "🐷 猪猪记账",
+    "subtitle": "可爱的个人财务追踪"
+  },
+  "nav": {
+    "dashboard": "仪表板",
+    "transactions": "交易记录",
+    "categories": "分类管理",
+    "settings": "设置"
+  },
+  "dashboard": {
+    "title": "财务概览",
+    "balance": "总余额",
+    "income": "本月收入",
+    "expense": "本月支出",
+    "expenseBreakdown": "支出分类",
+    "monthlyTrend": "收支趋势（近6个月）",
+    "noData": "暂无数据",
+    "noExpenseData": "本月暂无支出数据",
+    "filterMonth": "筛选月份"
+  },
+  "transactions": {
+    "title": "交易记录",
+    "add": "添加交易",
+    "edit": "编辑交易",
+    "delete": "删除",
+    "noTransactions": "暂无交易记录",
+    "amount": "金额",
+    "type": "类型",
+    "category": "分类",
+    "date": "日期",
+    "note": "备注",
+    "notePlaceholder": "可选备注...",
+    "income": "收入",
+    "expense": "支出",
+    "save": "保存",
+    "cancel": "取消",
+    "confirmDelete": "确定要删除这条记录吗？",
+    "amountRequired": "请输入金额",
+    "amountPositive": "金额必须大于0",
+    "categoryRequired": "请选择分类"
+  },
+  "categories": {
+    "title": "分类管理",
+    "income": "收入分类",
+    "expense": "支出分类",
+    "addCustom": "添加自定义分类",
+    "categoryName": "分类名称",
+    "categoryNamePlaceholder": "请输入分类名称",
+    "categoryIcon": "图标（Emoji）",
+    "categoryIconPlaceholder": "例如: 🎯",
+    "add": "添加",
+    "delete": "删除",
+    "confirmDelete": "确定要删除该分类吗？",
+    "cannotDeleteDefault": "无法删除默认分类",
+    "nameRequired": "请输入分类名称",
+    "iconRequired": "请输入分类图标"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "chinese": "中文",
+    "english": "English",
+    "clearData": "清除所有数据",
+    "clearDataConfirm": "确定要清除所有数据吗？此操作不可恢复！",
+    "clearDataSuccess": "数据已清除",
+    "about": "关于",
+    "aboutText": "🐷 猪猪记账 - 可爱的个人财务追踪工具"
+  },
+  "months": {
+    "1": "1月", "2": "2月", "3": "3月", "4": "4月",
+    "5": "5月", "6": "6月", "7": "7月", "8": "8月",
+    "9": "9月", "10": "10月", "11": "11月", "12": "12月"
+  },
+  "defaultCategories": {
+    "expense": {
+      "food": "餐饮",
+      "transport": "交通",
+      "housing": "住房",
+      "entertainment": "娱乐",
+      "health": "医疗",
+      "clothing": "服装",
+      "education": "教育",
+      "shopping": "购物",
+      "utilities": "水电",
+      "other": "其他"
+    },
+    "income": {
+      "salary": "工资",
+      "bonus": "奖金",
+      "investment": "投资",
+      "gift": "礼金",
+      "other": "其他"
+    }
+  }
+}
